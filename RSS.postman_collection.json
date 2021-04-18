@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "c59fddfb-fbdf-465f-b93c-4b25e1063015",
+		"name": "RSS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://rss.cnn.com/rss/edition.rss",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rss.cnn.com/rss/edition.rss",
+					"protocol": "http",
+					"host": [
+						"rss",
+						"cnn",
+						"com"
+					],
+					"path": [
+						"rss",
+						"edition.rss"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/rssentry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/rss/entry",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rss",
+						"entry"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
